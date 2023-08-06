@@ -240,7 +240,7 @@ class Daly(Battery):
                     w = 2 * math.pi * dT / utils.AVERAGE_CURRENT_TIME_CONSTANT
                     a = w / (w + 1)
                     self.current = (1 - a) * self.current + a * current
-                
+                #test
                 self.soc = soc / 10
                 return True
 
